@@ -7,14 +7,13 @@ for i in 1...100 {
         print("\(i) Viva Swift!!!");
     }
     else {
+        if (i%2==0) {
+            print("\(i) par!!!");
+        } else {
+            print("\(i) impar!!!");
+        }
         if (i%5==0) {
             print("\(i) Bingo!!!");
-        } else {
-            if (i%2==0) {
-                print("\(i) par!!!");
-            } else {
-                print("\(i) impar!!!");
-            }
         }
     }
 }
